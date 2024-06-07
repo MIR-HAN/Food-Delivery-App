@@ -1,0 +1,189 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Delicious Delights",
+      "minOrderPrice": 20,
+      "estimatedDelivery": 45,
+      "rating": 4.5,
+      "image": "../res-photos/res-1.jpg",
+      "isDeliveryFree": true
+    },
+    {
+      "id": "2",
+      "name": "Tasty Treats",
+      "minOrderPrice": 15,
+      "estimatedDelivery": 30,
+      "rating": 4.2,
+      "image": "../res-photos/res-2.jpg",
+      "isDeliveryFree": false
+    },
+    {
+      "id": "3",
+      "name": "Good Times",
+      "minOrderPrice": 25,
+      "estimatedDelivery": 40,
+      "rating": 4.7,
+      "image": "../res-photos/res-3.jpg",
+      "isDeliveryFree": true
+    },
+    {
+      "id": "4",
+      "name": "Savory Spoons",
+      "minOrderPrice": 18,
+      "estimatedDelivery": 35,
+      "rating": 4.3,
+      "image": "../res-photos/res-4.jpg",
+      "isDeliveryFree": false
+    },
+    {
+      "id": "5",
+      "name": "Crave Cafe",
+      "minOrderPrice": 10,
+      "estimatedDelivery": 25,
+      "rating": 4,
+      "image": "../res-photos/res-5.jpg",
+      "isDeliveryFree": false
+    },
+    {
+      "id": "6",
+      "name": "Sizzling Steaks",
+      "minOrderPrice": 30,
+      "estimatedDelivery": 50,
+      "rating": 4.8,
+      "image": "../res-photos/food-photos/ribs.jpg",
+      "free_delivery": true
+    },
+    {
+      "id": "7",
+      "name": "Pizza Paradise",
+      "minOrderPrice": 12,
+      "estimatedDelivery": 35,
+      "rating": 4.1,
+      "image": "../res-photos/pizza-res.jpg",
+      "free_delivery": false
+    },
+    {
+      "id": "8",
+      "name": "Burger Barn",
+      "minOrderPrice": 15,
+      "estimatedDelivery": 30,
+      "rating": 4.4,
+      "image": "../res-photos/burger-res.jpg",
+      "free_delivery": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Cheeseburger",
+      "description": "A classic cheeseburger with beef patty, cheddar cheese, lettuce, tomato, onion, and pickles.",
+      "category": "Burgers",
+      "price": 9.99,
+      "rating": 4.5,
+      "image": "../res-photos/food-photos/burger.jpg",
+      "restaurantID": "1"
+    },
+    {
+      "id": "2",
+      "title": "Margherita Pizza",
+      "description": "Traditional Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil leaves.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.8,
+      "image": "../res-photos/pizza-res.jpg",
+      "restaurantID": "2"
+    },
+    {
+      "id": "3",
+      "title": "Chicken Caesar Salad",
+      "description": "Crisp romaine lettuce topped with grilled chicken breast, Caesar dressing, croutons, and parmesan cheese.",
+      "category": "Salads",
+      "price": 8.49,
+      "rating": 4.2,
+      "image": "../res-photos/food-photos/salad.jpg",
+      "restaurantID": "3"
+    },
+    {
+      "id": "4",
+      "title": "Sushi Platter",
+      "description": "Assorted sushi rolls including California roll, spicy tuna roll, and salmon avocado roll.",
+      "category": "Sushi",
+      "price": 22.99,
+      "rating": 4.7,
+      "image": "../res-photos/food-photos/sushi.jpg",
+      "restaurantID": "4"
+    },
+    {
+      "id": "5",
+      "title": "Vegetarian Pad Thai",
+      "description": "Stir-fried rice noodles with tofu, bean sprouts, green onions, peanuts, and tamarind sauce.",
+      "category": "Noodles",
+      "price": 10.99,
+      "rating": 4.3,
+      "image": "../res-photos/food-photos/thai.jpg",
+      "restaurantID": "5"
+    },
+    {
+      "id": "6",
+      "title": "BBQ Ribs",
+      "description": "Tender pork ribs slow-cooked and glazed with barbecue sauce.",
+      "category": "BBQ",
+      "price": 15.99,
+      "rating": 4.6,
+      "image": "../res-photos/food-photos/ribs.jpg",
+      "restaurantID": "6"
+    },
+    {
+      "id": "7",
+      "title": "Mushroom Risotto",
+      "description": "Creamy risotto rice cooked with mushrooms, onions, garlic, and parmesan cheese.",
+      "category": "Italian",
+      "price": 11.49,
+      "rating": 4.4,
+      "image": "../res-photos/food-photos/risotto.jpg",
+      "restaurantID": "7"
+    },
+    {
+      "id": "8",
+      "title": "Chicken Tikka Masala",
+      "description": "Grilled chicken pieces simmered in a creamy tomato-based sauce with Indian spices.",
+      "category": "Indian",
+      "price": 13.99,
+      "rating": 4.9,
+      "image": "../res-photos/food-photos/tikka.jpg",
+      "restaurantID": "8"
+    },
+    {
+      "id": "9",
+      "title": "Caesar Wrap",
+      "description": "Grilled chicken, romaine lettuce, Caesar dressing, and parmesan cheese wrapped in a flour tortilla.",
+      "category": "Wraps",
+      "price": 7.99,
+      "rating": 4.1,
+      "image": "../res-photos/food-photos/wrap.jpg",
+      "restaurantID": "5"
+    },
+    {
+      "id": "10",
+      "title": "Chocolate Lava Cake",
+      "description": "Warm chocolate cake with a molten chocolate center, served with vanilla ice cream.",
+      "category": "Desserts",
+      "price": 6.99,
+      "rating": 4.7,
+      "image": "../res-photos/food-photos/lava-cake.jpg",
+      "restaurantID": "4"
+    }
+  ],
+  "card": [
+    {
+      "id": "a4364b44-48d3-4c61-87a3-b6ac72ecd5a9",
+      "productId": "4",
+      "title": "Sushi Platter",
+      "price": 22.99,
+      "image": "../res-photos/food-photos/sushi.jpg",
+      "restaurantName": "Savory Spoons",
+      "amount": 1
+    }
+  ]
+}
